@@ -1,4 +1,5 @@
 # Smart Home System — BTN415 Project (Group 6)
+<img width="1624" height="991" alt="smart-home-system" src="https://github.com/user-attachments/assets/e8ad5741-3eb2-4915-8de1-ac056212660e" />
 
 A simulated smart home that you control from a web dashboard. The core of the project is a **multi-threaded C++ TCP server** that owns the state of every smart device. Clients talk to it over raw TCP sockets using a small text protocol modelled on HTTP. A Node.js bridge translates the browser's HTTP/JSON requests into that TCP protocol, so the React frontend can drive the same server that the C++ command-line client uses.
 
